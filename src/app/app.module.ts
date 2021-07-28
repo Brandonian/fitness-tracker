@@ -18,6 +18,7 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { StopTrainingComponent } from './training/new-training/stop-training.component';
+import { AuthService } from './auth/auth.service';
 
 
 @NgModule({
@@ -44,7 +45,7 @@ import { StopTrainingComponent } from './training/new-training/stop-training.com
     ReactiveFormsModule,
     MatTabsModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
