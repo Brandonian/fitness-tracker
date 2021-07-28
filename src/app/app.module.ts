@@ -17,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { StopTrainingComponent } from './training/new-training/stop-training.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     PastTrainingComponent,
     WelcomeComponent,
     HeaderComponent,
-    SidenavListComponent
+    SidenavListComponent,
+    StopTrainingComponent
   ],
   imports: [
     BrowserModule,
