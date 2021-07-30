@@ -21,4 +21,8 @@ export class TrainingService{
   getAvailableExercises() {
     return this.availableExercises.slice();
   }
+
+  getRunningExercise() {
+    return { ...this.runningExercise };
+  }
 }
